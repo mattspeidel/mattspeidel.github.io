@@ -51,7 +51,7 @@ h1 {
   .mainBody {
       margin-top: 51px;
   }
-  .aboutContent {
+  .aboutHeader {
       display: flex;
       justify-content: center;
       background-color: #f9f9f9;
@@ -69,26 +69,86 @@ h1 {
     width: 175px;
     height: 175px;
   }
+  .about2col {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .aboutme {
+    width: 25%;
+  }
+  .contactme {
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  #li-big {
+    width: 147px;
+    height: 36px;
+    padding-left: 10px;
+  }
+  #gh-big {
+    width: 106px;
+    height: 43px;
+  }
+  #gmail {
+    width: 48px;
+    height: 36px;
+    padding-left: 8px;
+  }
+  #li-small {
+    width: 32px;
+    height: 32px;
+  }
+  #email {
+    width: 32px;
+    height: 32px;
+  }
+  #gh-small {
+    width: 32px;
+    height: 32px;
+  }
+  .nounder {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
   .bottomnav {
     overflow: hidden;
     background-color: #ffffff;
     border-top: solid;
     border-width: 1px;
-    border-color: #eeeeee;
+    border-color: #dddddd;
     position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10px;
   }
   .bottomicons {
       justify-content: right;
+      padding-right: 20px;
   }
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .about2col {
+      display: block;
+      padding-top: 50px;
+    }
+    .aboutme {
+      padding-left: 25px;
+      width: 85%;
+    }
+    .contactme {
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   }
   
