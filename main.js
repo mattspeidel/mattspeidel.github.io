@@ -18,7 +18,39 @@ function buttonTrans(x) {
 function displayProjects() {
     let newBody = document.createElement('div')
     newBody.classList.add('mainBody')
-    newBody.innerHTML = '<p>Projects</p>'
+    newBody.innerHTML = `<div class="projectsHeader">
+    <div>
+        <h1>Projects</h1>
+        <h2>Some projects I've worked on.</h2>
+    </div>
+</div>
+<div class="projects3col">
+    <div class="projectpane">
+        <h2>AHAbot</h2>
+        <br>
+        <a href="https://github.com/mattspeidel/aha-bot-brain">
+            <img src="ahabot.png"></a>
+        <p>AHAbot is an interactive, natural language chatbot within Slack that provides a unified, familiar interface for disruptive home control. It interacts directly with each user's personal instance of <a href="https://www.home-assistant.io/hassio/">Home Assistant</a> running on their Raspberry Pi and allows you to control many supported devices as well as receive status from all your supported smart devices.</p>
+        <br>
+        <p>It is built in Node.js using Node Slack SDK, Natural.js, and axios. The registration site is built in Django. </p>
+        <br>
+        <p>This was my final project at <a href="https://www.momentumlearn.com">Momentum Learning</a> for the 12-week immersive program. My team included <a href="https://github.com/dbarnes87">David Barnes</a>, <a href="https://github.com/christopherwburke">Chris Burke</a>, and <a href="https://github.com/ZekeHart">Zeke Hart</a>.</p>
+    </div>
+    <div class="projectpane">
+        <h2>SnipManager</h2>
+        <br>
+        <a href="https://github.com/mattspeidel/snipmanager">
+            <img src="snip.png"></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor sit amet eros sed volutpat. Duis aliquet ac est finibus fermentum. Donec scelerisque nibh a ligula fringilla semper. Etiam elit augue, venenatis non gravida in, rutrum id odio. In porttitor odio ac risus ornare aliquam. Pellentesque fermentum interdum velit vitae sollicitudin. Nullam lacinia ante nec arcu malesuada, quis sodales lacus luctus. Mauris faucibus urna nec luctus tincidunt. Proin maximus imperdiet velit, hendrerit dictum nisi cursus a. Cras et odio diam. Phasellus ut bibendum nunc, eget tempus enim. Vestibulum feugiat luctus dignissim. Donec auctor porttitor egestas.</p>
+    </div>
+    <div class="projectpane">
+        <h2>Itunes Sample Search</h2>
+        <br>
+        <a href="https://github.com/mattspeidel/itunes-search">
+            <img src="itunes.png"></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor sit amet eros sed volutpat. Duis aliquet ac est finibus fermentum. Donec scelerisque nibh a ligula fringilla semper. Etiam elit augue, venenatis non gravida in, rutrum id odio. In porttitor odio ac risus ornare aliquam. Pellentesque fermentum interdum velit vitae sollicitudin. Nullam lacinia ante nec arcu malesuada, quis sodales lacus luctus. Mauris faucibus urna nec luctus tincidunt. Proin maximus imperdiet velit, hendrerit dictum nisi cursus a. Cras et odio diam. Phasellus ut bibendum nunc, eget tempus enim. Vestibulum feugiat luctus dignissim. Donec auctor porttitor egestas.</p>
+    </div>
+</div>`
     body.parentNode.replaceChild(newBody, body)
     body = document.querySelector('.mainBody')
 }

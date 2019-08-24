@@ -112,6 +112,26 @@ h1 {
     color: #000000;
     font-weight: bold;
   }
+  .projectsHeader {
+    background-color: #f9f9f9;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 91px 10px;
+    text-align: center;
+}
+.projects3col{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+}
+.projects3col img {
+  width: 550px;
+  text-align: center;
+}
+.projectpane {
+  width: 30%;
+}
   .bottomnav {
     overflow: hidden;
     background-color: #ffffff;
