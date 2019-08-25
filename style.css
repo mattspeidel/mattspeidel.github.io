@@ -77,6 +77,11 @@ h1 {
   .aboutme {
     width: 25%;
   }
+  .aboutme a {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
   .contactme {
     flex-direction: column;
     padding-left: 25px;
@@ -137,6 +142,50 @@ h1 {
   color: darkgrey;
   font-weight: bold;
 }
+.resumeheader {
+  background-color: #f9f9f9;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+  padding: 91px 10px;
+  text-align: center;
+}
+.resumeheader a {
+  text-decoration: none;
+  color: darkgray;
+  font-weight: bold;
+}
+.resume2col {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 85px;
+}
+.resume2col h2 {
+  color: #c32030;
+}
+.resumeleft {
+  flex-direction: column;
+  width: 60%;
+  padding-right: 10px;
+}
+.resumeright {
+  flex-direction: column;
+  width: 30%;
+  padding-left: 10px;
+  background-color: #355269;
+  color: white;
+}
+.rrbox {
+  text-align: left;
+}
+.rrtext {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: none;
+}
+#mobileemail {
+  display: none;
+}
   .bottomnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -189,6 +238,20 @@ h1 {
     .projects3col img {
       width: 350px;
       text-align: center;
+    }
+    .resume2col h1 {
+      font-size: 1.25rem;
+    }
+    .resume2col h3 {
+      font-size: 1rem;
+    }
+    #desktopemail {
+      display: none;
+    }
+    #mobileemail {
+      display: contents;
+      color: white;
+      font-weight: bold;
     }
   }
   

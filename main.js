@@ -2,6 +2,7 @@ var body = document.querySelector('.mainBody')
 const aboutLink = document.querySelector('#about')
 const projectsLink = document.querySelector('#projects')
 const resumeLink = document.querySelector('#resume')
+const mattLink = document.querySelector('#name')
 
 function buttonShow() {
     var x = document.getElementById("myTopnav");
@@ -115,12 +116,88 @@ function displayAbout() {
 function displayResume() {
     let newBody = document.createElement('div')
     newBody.classList.add('mainBody')
-    newBody.innerHTML = '<p>Resume</p>'
+    newBody.innerHTML = `<div class="resumeheader">
+    <div>
+        <h1>Résumé</h1>
+        <h2>Please review my résumé below or visit my <a href="https://www.linkedin.com/in/matthew-speidel/"">LinkedIn.</a></h2>
+    </div>
+</div>
+<div class="resume2col">
+    <div class="resumeleft">
+        <h2>WORK EXPERIENCE</h2>
+        <h3>Full Stack Software Developer</h3>
+        <h3>Momentum Learning (May 2019 > Present)</h3>
+        <p>Dedicated 12 weeks to learning Full-Stack Engineering practices for building and maintaining websites and web applications in an immersive coding program. </p>
+        <p>Completed daily and weekly technical projects solo, in pair programming and in group setting to learn and gain knowledge around current development tools, techniques and best practices.</p>
+        <br>
+        <h3>Premises/Wire Technician</h3>
+        <h3>AT&T (October 2016 > December 2017)</h3>
+        <p>Conducted client installations and repairs of internet, VOIP, and television services in both residential and business environments.</p>
+        <p>Utilized diagnostic equipment and tools to troubleshoot telecom facilities as well as aerial and buried communication lines.</p>
+        <p>Exceeded performance metrics in all areas, including quality, efficiency, and safety while receiving customer service accolades.</p>
+        <br>
+        <h3>Center Consultant</h3>
+        <h3>FedEx Office (August 2012 > October 2016)</h3>
+        <p>Quickly assumed a direct role in all aspects of the business including printing, shipping, and retail merchandising.</p>
+        <p>Directly assisted in helping the store reach the highest success levels, earning the #5 position in our store tier nationwide and President's Club status.</p>
+        <br>
+        <h3>Store Manager/Assistant Store Manager</h3>
+        <h3>Gamestop (November 2004 > November 2011)</h3>
+        <p>Captained the sales team to consistently excellent ranking regionally, first place in district three years straight, including top performance in reserves, sales comp and trade comps.</p>
+        <p>Maintained operational excellence including scheduling, recruitment, and loss prevention.</p>
+        <p>Developed sales into strong repeat customers.</p>
+        <br>
+        <h2>EDUCATION</h2>
+        <h3>Momentum Learning (May 2019 > Present)</h3>
+        <p>Dedicated 12 weeks to learning Full-Stack Engineering practices for building and maintaining websites and web applications in an immersive coding program. </p>
+        <p>Completed daily and weekly technical projects solo, in pair programming and in group setting to learn and gain knowledge around current development tools, techniques and best practices.</p>
+        <br>
+        <h3>Newbury High School</h3>
+        <p>High School Diploma</p>
+    </div>
+    <div class="resumeright">
+        <div class="rrbox">
+            <div class="rrtext">
+                <h1>MATTHEW</h1>
+                <h1>SPEIDEL</h1>
+            </div>
+        </div>
+        <br>
+        <h3>1213 Links Drive</h3>
+        <h3>Morrisville, NC 27560</h3>
+        <h3 id="desktopemail">mattspeidel@gmail.com</h3>
+        <a id="mobileemail" href="mailto:mattspeidel@gmail.com">Email</a>
+        <br>
+        <h2>SKILLS</h2>
+        <br>
+        <h3>Python</h3>
+        <br>
+        <h3>Javascript</h3>
+        <br>
+        <h3>Django</h3>
+        <br>
+        <h3>HTML</h3>
+        <br>
+        <h3>CSS</h3>
+        <br>
+        <h3>node.js</h3>
+        <br>
+        <h3>Git</h3>
+        <br>
+        <h3>Rest API</h3>
+        <br>
+        <h3>Agile</h3>
+    </div>
+</div>`
     body.parentNode.replaceChild(newBody, body)
     body = document.querySelector('.mainBody')
 }
 
 aboutLink.addEventListener('click', function () {
+    displayAbout()
+}
+)
+mattLink.addEventListener('click', function () {
     displayAbout()
 }
 )
