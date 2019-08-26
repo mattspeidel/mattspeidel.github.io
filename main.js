@@ -36,8 +36,7 @@ function displayProjects() {
         <p>It is built in Node.js using Node Slack SDK, Natural.js, and axios. The registration site is built in Django. </p>
         <br>
         <p>This was my final project at <a href="https://www.momentumlearn.com">Momentum Learning</a> for the 12-week immersive program. My team included <a href="https://github.com/dbarnes87">David Barnes</a>, <a href="https://github.com/christopherwburke">Chris Burke</a>, and <a href="https://github.com/ZekeHart">Zeke Hart</a>.</p>
-        <br>
-        <a href="https://github.com/mattspeidel/aha-bot-brain">See it on <img id="gh-small" src="GitHub-Mark-32px.png"></a>
+        <a class="bottomline" href="https://github.com/mattspeidel/aha-bot-brain">See it on <img id="gh-small" src="GitHub-Mark-32px.png"></a>
     </div>
     <div class="projectpane">
         <h2>SnipManager</h2>
@@ -49,11 +48,7 @@ function displayProjects() {
         <p>This was built with Django and implements Django REST Framework. It uses a lot of javascript on the front end to provide fast results and display. The front end also includes prism.js and code mirror to provide syntax highlighting.</p>
         <br>
         <p>This project was a group project at <a href="https://www.momentumlearn.com">Momentum Learning</a>. The team included myself, <a href="https://github.com/ZekeHart">Zeke Hart</a>, and <a href="https://github.com/dzordich">David Zordich</a>.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a href="https://github.com/mattspeidel/snipmanager">See it on <img id="gh-small" src="GitHub-Mark-32px.png"></a>
+        <a class="bottomline" href="https://github.com/mattspeidel/snipmanager">See it on <img id="gh-small" src="GitHub-Mark-32px.png"></a>
         </div>
     <div class="projectpane">
         <h2>MusicSite</h2>
@@ -63,15 +58,7 @@ function displayProjects() {
         <p>This is a website that provides for the ability to search iTunes' music library and return a listing of song clips you can listen to. It can be filtered by Artist, Song Title, or Album Title.</p>
         <br>
         <p>It was built using javascript tapping into the iTunes API. The CSS styling accomodates both mobile and desktop layouts.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a href="https://github.com/mattspeidel/itunes-search">See it on <img id="gh-small" src="GitHub-Mark-32px.png"></a>
+        <a class="bottomline" href="https://github.com/mattspeidel/itunes-search">See it on <img id="gh-small" src="GitHub-Mark-32px.png"></a>
         </div>
 </div>`
     body.parentNode.replaceChild(newBody, body)
