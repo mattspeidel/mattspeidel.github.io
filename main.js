@@ -82,7 +82,7 @@ function displayAbout() {
         <br>
         <p>I've recently graduated <a href="https://www.momentumlearn.com">Momentum Learning's</a> 12-week immersive program in Durham, NC and am looking for great opportunities.</p>
         <br>
-        <p>My technical skills include Python, Django, javascript, node.js, vue.js, HTML, CSS, working with REST APIs, and Git. I'm a passionate, dedicated problem-solver and love this career.</p>
+        <p>My technical skills include Python, Django, javascript, node.js, vue.js, HTML, CSS, working with REST APIs, SQL, and Git. I'm a passionate, dedicated problem-solver and love this career.</p>
     </div>
     <div class="contactme">
         <h2>Contact Me</h2>
@@ -159,7 +159,7 @@ function displayResume() {
         <br>
         <h3>Python</h3>
         <br>
-        <h3>Javascript</h3>
+        <h3>JavaScript</h3>
         <br>
         <h3>Django</h3>
         <br>
@@ -174,6 +174,8 @@ function displayResume() {
         <h3>Git</h3>
         <br>
         <h3>Rest API</h3>
+        <br>
+        <h3>SQL</h3>
         <br>
         <h3>Agile</h3>
     </div>
