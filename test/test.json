@@ -1,21 +1,56 @@
 {
     "users": [
-        {
-            "name": "robobravado",
-            "commands": {
-                "!robo": 3600,
-                "!fool": 3600,
-                "!wow": 1200,
-                "!despair": 3600,
-                "!gotem": 7200
-            }
-        },
-        {
-            "name": "hyperstipherx",
-            "commands": {
-                "!penis": 1,
-                "!balls": 1
-            }
-        }
+       {
+          "name": "robobravado",
+          "profilepic": "https://static-cdn.jtvnw.net/jtv_user_pictures/fa189a63-b7b2-495c-9380-f6a1da3710b6-profile_image-300x300.jpg",
+          "commands": {
+             "!robo": 3600,
+             "!fool": 3600,
+             "!wow": 1200,
+             "!despair": 3600,
+             "!gotem": 7200
+          }
+       },
+       {
+          "name": "luthimir",
+          "profilepic": "https://static-cdn.jtvnw.net/jtv_user_pictures/4700d911-6225-4374-b0bf-dd61c038d784-profile_image-300x300.png",
+          "commands": {
+             "!luthimir": 3600
+          }
+       },
+       {
+          "name": "robosidecar",
+          "profilepic": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png",
+          "commands": {
+             "!despair": 2700,
+             "!iggy": 3600
+          }
+       },
+       {
+          "name": "someenduser",
+          "profilepic": "https://static-cdn.jtvnw.net/jtv_user_pictures/51603465-ab03-4ba6-bd33-b60f3a674aed-profile_image-300x300.jpg",
+          "commands": {
+             "!bs": 3600,
+             "!timing": 3600,
+             "!wig": 3600,
+             "!someenduser": 3600,
+             "!somehai": 3600,
+             "!yeatoast": 3600
+          }
+       },
+       {
+          "name": "sutekhprime",
+          "profilepic": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png",
+          "commands": {
+             "!cl": 3600,
+             "!cw": 3600,
+             "!done": 3600,
+             "!hey": 3600,
+             "!ori": 3600,
+             "!toast": 3600,
+             "!wut": 3600,
+             "!wokemz": 3600
+          }
+       }
     ]
-}
+ }
